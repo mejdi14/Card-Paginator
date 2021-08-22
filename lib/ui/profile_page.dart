@@ -37,7 +37,10 @@ class _ProfilePageState extends State<ProfilePage> {
                   backgroundImage: AssetImage('assets/img/me.jpeg'),
                 ),
               ),
-            )
+            ),
+            Align(
+                alignment: Alignment.center,
+                child: Text('Mejdi Hafiane', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 26),))
           ],
         ),
       ),
